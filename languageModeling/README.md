@@ -7,4 +7,10 @@ Natural Language Processing (NLP) is a field of study combining linguistics, sta
 Using language models with pre-trained embeddings, such as [Sentence Transformers](https://sbert.net/) allows users to quickly discover similarities in text that has been parsed with a tool, such as [LexRank](https://github.com/crabcamp/lexrank/tree/dev), with the help of [sumy](https://miso-belica.github.io/sumy/) for extractive text summarization, and tokenized with a tool, such as [NLTK](https://www.nltk.org/install.html).
 
 ### [Generating Text with N-Grams](https://github.com/FalineRezvani/simpleInsightTools/blob/main/languageModeling/countBasedLanguageModel.ipynb)
+
 Count-based language models use conditional probability, specifically [n-grams](https://www.youtube.com/watch?v=p-wgw9R3fRU&list=PLhLmrhdjYUTGLt-q7mPvS-Mh2zjn43bLs&index=1), for word prediction.  These models predict the second word based on one word (bigram), the third word based on two words (trigram), and so on.
+
+
+## Data Source
+
+For these projects, data was collected with the help of my [gatherContent](https://github.com/FalineRezvani/simpleInsightTools/blob/main/webScraping/gatherContent.ipynb) tool. Using this tool, articles on reinforcement learning were gathered from [GeeksforGeeks.org](https://www.geeksforgeeks.org/).
